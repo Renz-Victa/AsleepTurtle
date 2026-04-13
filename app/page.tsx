@@ -1,15 +1,15 @@
 import Link from 'next/link'
 
 const benefits = [
-  { icon: '◎', title: 'Amplify your AI roadmap', desc: 'Unlock data-driven decisions with a prioritised, executable AI strategy grounded in your actual constraints — not a wishlist.' },
+  { icon: '◎', title: 'Amplify your AI roadmap', desc: 'Unlock data-driven decisions with a prioritised, executable AI strategy grounded in your actual constraints, not a wishlist.' },
   { icon: '⬡', title: 'Senior attention, always', desc: 'You work directly with us, not a sub-contracted junior team. Every call, every deliverable, every decision.' },
-  { icon: '◈', title: 'No lock-in by design', desc: 'We build your team\'s capability alongside anything we build for you. The goal is to make ourselves unnecessary.' },
-  { icon: '◻', title: 'Startup-native thinking', desc: 'The right solution is the one that ships — not the architecturally perfect one that sits in a backlog.' },
+  { icon: '◈', title: 'No lock-in by design', desc: 'We build your team\'s capability alongside anything we build for you. The goal is to make ourselves necessary.' },
+  { icon: '◻', title: 'Startup-native thinking', desc: 'The right solution is the one that ships, not the architecturally perfect one that sits in a backlog.' },
 ]
 
 const steps = [
-  { num: '01', title: 'Book a call', desc: 'A 30-minute conversation to understand your situation — no pitch, no obligation.' },
-  { num: '02', title: 'We scope together', desc: 'You tell us where you are. We tell you what we think you actually need, even if it\'s not us.' },
+  { num: '01', title: 'Book a call', desc: 'A 30-minute conversation to understand your situation, no pitch, no obligation.' },
+  { num: '02', title: 'We scope together', desc: 'You tell us where you are and we tell you what we think you actually need.' },
   { num: '03', title: 'We get to work', desc: 'Embedded, hands-on, and accountable. We stay until your team owns it.' },
 ]
 
@@ -19,12 +19,12 @@ export default function Home() {
       {/* ── HERO ── */}
       <section className="hero">
         <div className="container">
-          <div className="hero__tag">AI Consulting for Startups</div>
+          <div className="hero__tag">Enterprise AI Consulting</div>
           <h1 className="hero__h1">
-            We help startups ship <em>AI that works.</em>
+            We help enterprises ship <em>AI that works.</em>
           </h1>
           <p className="hero__sub">
-            Strategy, implementation, and team enablement for Series A–C companies
+            Strategy, implementation and teamwork for Series A-C companies
             moving faster than their AI roadmap.
           </p>
           <div className="hero__actions">
@@ -40,17 +40,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── LOGOS ── */}
-      <div className="logos">
-        <div className="container">
-          <p className="logos__label">Trusted by ambitious teams at</p>
-          <div className="logos__row">
-            {['Acme Labs', 'Vanta', 'Northstar', 'Deepflow', 'Orbital'].map((l) => (
-              <span key={l} className="logo-item">{l}</span>
-            ))}
-          </div>
-        </div>
-      </div>
 
       {/* ── BENEFITS ── */}
       <section className="section section--white">
@@ -86,7 +75,7 @@ export default function Home() {
               <h2 className="feature__h2">See the full picture before you build.</h2>
               <p className="feature__text">
                 Most AI projects fail before a single model runs. We help you avoid the
-                six-month detour — by getting the strategy, scope, and team alignment
+                six-month detour by getting the strategy, scope and team alignment
                 right from day one.
               </p>
               <ul className="feature__list">
@@ -97,7 +86,7 @@ export default function Home() {
                   'Leave your team better than we found them',
                 ].map((item, i) => (
                   <li key={i}>
-                    <span>0{i + 1}</span>
+                    <span>{i + 1}.</span>
                     <span>{item}</span>
                   </li>
                 ))}
@@ -133,12 +122,12 @@ export default function Home() {
               </thead>
               <tbody>
                 {[
-                  ['Senior practitioner on every call',     '✓','–','✓'],
-                  ['Startup-speed delivery',                '✓','–','✓'],
-                  ['End-to-end strategy + build',           '✓','✓','–'],
-                  ['Team enablement included',              '✓','–','–'],
-                  ['No lock-in, full IP handover',          '✓','–','✓'],
-                  ['Dedicated account management',          '✓','✓','–'],
+                  ['Senior practitioner on every call', '✓', '–', '✓'],
+                  ['Startup-speed delivery', '✓', '–', '✓'],
+                  ['End-to-end strategy + build', '✓', '✓', '–'],
+                  ['Team enablement included', '✓', '–', '–'],
+                  ['No lock-in, full IP handover', '✓', '–', '✓'],
+                  ['Dedicated account management', '✓', '✓', '–'],
                 ].map(([label, ...vals]) => (
                   <tr key={label as string}>
                     <td>{label}</td>
@@ -160,11 +149,11 @@ export default function Home() {
         <div className="container">
           <div className="testimonial">
             <p className="testimonial__quote">
-              "They restructured how we thought about the problem entirely — and cut
+              "They restructured how we thought about the problem entirely and cut
               our evaluation timeline from weeks to days."
             </p>
             <p className="testimonial__attr">
-              <strong>Sarah K.</strong> · CTO, Series B SaaS · Amsterdam
+              <strong>Renz Victa</strong>
             </p>
           </div>
         </div>
