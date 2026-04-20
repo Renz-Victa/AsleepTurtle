@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service</title>
+  <link rel="icon" type="image/png" href="/img/Sawrus.png">
+  <meta name="description"
+    content="Sawrus Terms of Service. These terms govern your use of our website and consulting services." />
+  <link rel="canonical" href="https://sawrus.com/terms.html" />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .legal-body {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .legal-body h2 {
+      font-size: clamp(18px, 2vw, 22px);
+      margin-top: 52px;
+      margin-bottom: 14px;
+      font-family: var(--font-display);
+    }
+
+    .legal-body h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 28px;
+      margin-bottom: 10px;
+      color: var(--ink);
+      font-family: var(--font-body);
+    }
+
+    .legal-body p {
+      font-size: 15px;
+      margin-bottom: 16px;
+      line-height: 1.8;
+      color: var(--ink-soft);
+    }
+
+    .legal-body ul {
+      margin: 0 0 16px 0;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .legal-body ul li {
+      font-size: 15px;
+      color: var(--ink-soft);
+      line-height: 1.7;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .legal-body ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--muted);
+    }
+
+    .legal-body a {
+      color: var(--ink);
+      text-decoration: underline;
+    }
+
+    .legal-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 48px 0;
+    }
+
+    .toc {
+      background: var(--cream-deep);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 28px 32px;
+      margin-bottom: 52px;
+    }
+
+    .toc h4 {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .toc ol {
+      counter-reset: toc;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding-left: 0;
+    }
+
+    .toc ol li {
+      counter-increment: toc;
+      list-style: none;
+      font-size: 14px;
+      color: var(--ink-soft);
+    }
+
+    .toc ol li::before {
+      content: none;
+    }
+
+    .toc ol li a {
+      color: var(--ink-soft);
+      text-decoration: none;
+      display: flex;
+      gap: 8px;
+      transition: color .2s;
+    }
+
+    .toc ol li a:hover {
+      color: var(--ink);
+    }
+
+    .toc ol li a::before {
+      content: counter(toc) ".";
+      color: var(--muted);
+      min-width: 20px;
+    }
+
+    .last-updated {
+      display: inline-block;
+      font-size: 13px;
+      color: var(--muted);
+      background: var(--cream-deep);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: var(--radius-pill);
+      margin-bottom: 32px;
+    }
+
+    .highlight-box {
+      background: var(--cream-deep);
+      border-left: 3px solid var(--ink);
+      padding: 18px 20px;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      margin-bottom: 20px;
+    }
+
+    .highlight-box p {
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">Sawrus</a>
+    <div class="nav-links">
+      <a href="index.html#benefits">Home</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="index.html#process">How it Works</a>
+      <a href="contact.html" class="btn btn-primary nav-cta" style="color: var(--white);">Book a Call</a>
+    </div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html#benefits">Benefits</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="index.html#process">How it Works</a>
+    <a href="contact.html" class="btn btn-primary">Book a Call</a>
+  </div>
+
+  <section class="section" style="padding-top:calc(var(--nav-h) + clamp(48px,7vw,80px));">
+    <div class="container">
+      <div class="legal-body">
+
+        <p class="overline">Legal</p>
+        <h1 style="font-size:clamp(32px,5vw,56px); margin-bottom:16px;">Terms of Service</h1>
+        <span class="last-updated">Last updated: 1 January 2025</span>
+
+        <p>Please read these Terms of Service carefully before engaging our consulting services. By accessing the Site
+          or
+          entering into a consulting engagement with us, you agree to be bound by these Terms. If you do not agree,
+          please do not use the Site or our services.
+        </p>
+
+        <div class="highlight-box">
+          <p><strong>Plain-English summary:</strong> These Terms set out the rules for using our website and working
+            with us as a client. Key points: we own our methods and frameworks; you own all deliverables once it is
+            paid; our liability is limited to the fees you paid us; and we never guarantee specific business
+            outcomes.</p>
+        </div>
+
+        <div class="toc">
+          <h4>Contents</h4>
+          <ol>
+            <li><a href="#t1">About Sawrus</a></li>
+            <li><a href="#t2">Using our website</a></li>
+            <li><a href="#t3">Our consulting services</a></li>
+            <li><a href="#t4">Fees and payment</a></li>
+            <li><a href="#t5">Intellectual property</a></li>
+            <li><a href="#t6">Confidentiality</a></li>
+            <li><a href="#t7">Representations and warranties</a></li>
+            <li><a href="#t8">Limitation of liability</a></li>
+            <li><a href="#t9">Indemnification</a></li>
+            <li><a href="#t10">Term and termination</a></li>
+            <li><a href="#t11">Governing law and disputes</a></li>
+            <li><a href="#t12">Changes to these Terms</a></li>
+            <li><a href="#t13">Contact us</a></li>
+          </ol>
+        </div>
+
+        <hr class="legal-divider" />
+
+        <h2 id="t1">1. About Sawrus</h2>
+        <p>Sawrus is an AI strategy and roadmap consulting business. References to "Sawrus", "we", "us", or "our" in
+          these Terms refer to the operating entity behind Sawrus and its consultant. References to "you" or "client"
+          refer to any individual or organisation that uses our Site or engages our services.</p>
+
+        <h2 id="t2">2. Using our website</h2>
+        <h3>Permitted use</h3>
+        <p>You may use the Site for lawful purposes only. You agree not to:</p>
+        <ul>
+          <li>Use the Site in any way that violates applicable local, national, or international law or regulation</li>
+          <li>Transmit any unsolicited or unauthorised advertising or promotional material</li>
+          <li>Knowingly transmit any data or material that contains viruses, trojans, spyware, or other malicious code
+          </li>
+          <li>Attempt to gain unauthorised access to any part of the Site or its related systems</li>
+          <li>Scrape, crawl, or systematically extract content from the Site without our prior written consent</li>
+        </ul>
+
+        <h3>Availability</h3>
+        <p>We aim to keep the Site available at all times but do not guarantee uninterrupted access. We reserve the
+          right to suspend, withdraw, or change the Site at any time without notice.</p>
+
+        <h3>Third-party links</h3>
+        <p>The Site may contain links to third-party websites. We are not responsible for the content, accuracy, or
+          practices of any linked site and do not endorse them. You access third-party sites at your own risk.</p>
+
+        <h2 id="t3">3. Our consulting services</h2>
+        <h3>Scope of services</h3>
+        <p>Sawrus provides AI strategy and roadmap consulting services to companies. The specific scope, deliverables,
+          timeline, and fees for each engagement are agreed in writing before work begins (the "Statement of Work" or
+          "SOW"). In the event of any conflict between an SOW and these Terms, the SOW shall take precedence for that
+          specific engagement.</p>
+
+        <h3>No implementation</h3>
+        <p>Our services are advisory in nature. We do not build software, implement AI systems, or provide managed IT
+          services. We provide strategy, recommendations, and roadmaps — execution is carried out by you or your chosen
+          implementation partners.</p>
+
+        <h3>No guaranteed outcomes</h3>
+        <p>All strategy and recommendations we provide are based on information available at the time of the engagement
+          and our professional judgement. We cannot and do not guarantee any specific business outcome, financial
+          result, investor outcome, or competitive advantage as a result of engaging our services.</p>
+
+        <h3>Your responsibilities</h3>
+        <p>You agree to:</p>
+        <ul>
+          <li>Provide us with accurate and complete information necessary for the engagement</li>
+          <li>Make appropriate personnel available for interviews and workshops as agreed in the SOW</li>
+          <li>Review and provide feedback on draft deliverables within the timelines set in the SOW</li>
+          <li>Not use our deliverables for any unlawful purpose</li>
+        </ul>
+
+        <h2 id="t4">4. Fees and payment</h2>
+        <h3>Pricing</h3>
+        <p>Our fees are disclosed and negotiable and confirmed in each SOW. All fees are quoted in South African Rands
+          (ZAR)
+          and are exclusive of any applicable taxes (such as VAT), which shall be charged additionally where required by
+          law.</p>
+
+        <h3>Payment terms</h3>
+        <p>We accept payment by bank transfer, major credit cards and Paypal. All invoices are due within 14 days of the
+          invoice
+          date. Late payments may incur interest at the rate permitted by applicable law.</p>
+
+        <h3>Refund policy</h3>
+        <p>The Commencement Payment is non-refundable once work has begun. If you wish to terminate an engagement before
+          final delivery, we will invoice you for work completed up to the date of termination, less the Commencement
+          Payment already received. If the amount owed for work completed is less than the Commencement Payment, no
+          refund will be issued.</p>
+
+        <h2 id="t5">5. Intellectual property</h2>
+        <h3>Deliverables</h3>
+        <p>Upon receipt of full payment, we assign to you all intellectual property rights in the final deliverables
+          produced specifically for your engagement (the "Deliverables"), including any written strategy documents,
+          roadmaps, and presentation slides.</p>
+
+        <h3>Background IP</h3>
+        <p>Notwithstanding the above, we retain all rights in our pre-existing methods, frameworks, templates,
+          processes, and know-how ("Background IP"), including any general frameworks or methodologies incorporated into
+          your Deliverables. We grant you a non-exclusive, perpetual licence to use Background IP embedded in your
+          Deliverables for your internal business purposes.</p>
+
+        <h3>Our website content</h3>
+        <p>All content on the Site — including text, graphics, logos, and design — is owned by or licensed to Sawrus and
+          is protected by copyright law. You may not reproduce, distribute, or create derivative works from Site content
+          without our prior written consent.</p>
+
+        <h2 id="t6">6. Confidentiality</h2>
+        <p>We treat all information you share with us during an engagement as strictly confidential. We will not
+          disclose your confidential information to any third party except as required to perform the services (e.g., to
+          our own sub-consultants who are bound by equivalent confidentiality obligations) or as required by law.</p>
+        <p>We may reference your company name and the general nature of the engagement in our marketing materials (e.g.,
+          case studies & testimonials) only with your prior written consent. All case studies published on our Site are
+          either
+          anonymised or approved by the client.</p>
+        <p>You agree to keep confidential any proprietary methodologies, frameworks, or processes we share with you
+          during an engagement.</p>
+
+        <h2 id="t7">7. Representations and warranties</h2>
+        <p>Each party represents and warrants to the other that:</p>
+        <ul>
+          <li>It has the legal authority to enter into these Terms and any applicable SOW</li>
+          <li>The performance of its obligations will not violate any applicable law or the rights of any third party
+          </li>
+        </ul>
+        <p>We further represent that our services will be performed with reasonable skill and care by qualified
+          professionals. THE SITE AND OUR SERVICES ARE OTHERWISE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS
+          OR IMPLIED, TO THE FULLEST EXTENT PERMITTED BY LAW.</p>
+
+        <h2 id="t8">8. Limitation of liability</h2>
+        <p>To the fullest extent permitted by applicable law:</p>
+        <ul>
+          <li>Our total aggregate liability to you for any claim arising out of or relating to these Terms or any
+            engagement shall not exceed the total fees paid by you to us for the specific engagement giving rise to the
+            claim.</li>
+          <li>Neither party shall be liable to the other for any indirect, incidental, consequential, special, or
+            punitive damages, including loss of profit, loss of revenue, loss of data, or loss of business opportunity,
+            even if advised of the possibility of such damages.</li>
+        </ul>
+        <p>Nothing in these Terms limits liability that cannot be excluded by law, including liability for fraud, death,
+          or personal injury caused by negligence.</p>
+
+        <h2 id="t9">9. Indemnification</h2>
+        <p>You agree to indemnify, defend, and hold harmless Sawrus and its consultants from and against any claims,
+          damages, losses, and expenses (including reasonable legal fees) arising out of or relating to: (a) your use of
+          the Site; (b) your breach of these Terms; or (c) your use of any Deliverables in a manner not authorised by
+          these Terms.</p>
+
+        <h2 id="t10">10. Term and termination</h2>
+        <p>These Terms apply whenever you access the Site. For consulting engagements, these Terms (together with the
+          relevant SOW) govern the engagement from the date of signing until final delivery and payment.</p>
+        <p>Either party may terminate a consulting engagement by written notice if the other party materially breaches
+          these Terms and fails to cure the breach within 14 days of written notice. On termination, you shall pay for
+          all work completed up to the date of termination.</p>
+        <p>We reserve the right to terminate or suspend access to the Site at any time without notice.</p>
+
+        <h2 id="t11">11. Governing law and disputes</h2>
+        <p>These Terms and any dispute arising out of or in connection with them shall be governed by and construed in
+          accordance with the laws of South Africa, without regard to its conflict of law provisions.</p>
+        <p>In the event of a dispute, both parties agree to attempt to resolve the matter in good faith through direct
+          negotiation before initiating formal proceedings. If a resolution cannot be reached within 30 days, either
+          party may seek relief from the courts of South Africa, to whose exclusive jurisdiction both parties
+          submit.</p>
+
+        <h2 id="t12">12. Changes to these Terms</h2>
+        <p>We may update these Terms from time to time. We will post the updated Terms on this page with a revised "Last
+          updated" date. For active consulting engagements, changes to these Terms will not apply retroactively — the
+          Terms in effect at the time your SOW was signed govern that engagement.</p>
+        <p>Your continued use of the Site after updated Terms are posted constitutes your acceptance of those changes.
+        </p>
+
+        <h2 id="t13">13. Contact us</h2>
+        <p>If you have any questions about these Terms, please contact us:</p>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:renzvicta@sawrus.ai">renzvicta@sawrus.ai</a></li>
+          <li><strong>LinkedIn:</strong> <a
+              href="https://www.linkedin.com/in/renz-victa/">www.linkedin.com/in/renz-victa</a></li>
+        </ul>
+
+        <hr class="legal-divider" />
+        <p style="font-size:13px; color:var(--muted);">© 2025 Sawrus. All rights reserved.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">Sawrus</div>
+          <p class="footer-desc">AI Strategy & Roadmap consulting for startups.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Services</div>
+          <div class="footer-links"><a href="services.html">AI Strategy & Roadmap</a><a
+              href="pricing.html">Pricing</a><a href="contact.html">Book a Call</a></div>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <div class="footer-links"><a href="about.html">About</a><a href="case-studies.html">Case Studies</a><a
+              href="blog.html">Blog</a></div>
+        </div>
+        <div>
+          <div class="footer-col-title">Legal</div>
+          <div class="footer-links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© Sawrus 2026 | All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 20));
+    document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileNav').classList.toggle('open'));
+  </script>
+</body>
+
+</html>
